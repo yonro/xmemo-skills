@@ -1,9 +1,13 @@
 {
   "name": "@xmemo/skills",
-  "version": "0.1.0",
+  "version": "1.2.0",
   "description": "Unified Cross-Agent Memory Skills Library for XMemo Memory OS",
   "type": "module",
   "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./memory-os": "./skills/memory-os/index.js"
+  },
   "scripts": {
     "test": "node --test test/**/*.test.js"
   },
@@ -11,8 +15,12 @@
     "xmemo",
     "memory-os",
     "agent-skills",
-    "model-context-protocol"
+    "model-context-protocol",
+    "openclaw",
+    "hermes",
+    "session-snapshots",
+    "agent-todos"
   ],
   "author": "Yonro",
-  "license": "UNLICENSED"
+  "license": "MIT"
 }
