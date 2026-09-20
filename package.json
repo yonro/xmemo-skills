@@ -22,5 +22,13 @@
     "agent-todos"
   ],
   "author": "Yonro",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yonro/xmemo-skills.git"
+  },
+  "homepage": "https://xmemo.dev",
+  "publishConfig": {
+    "access": "public"
+  }
 }
